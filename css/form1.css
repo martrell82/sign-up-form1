@@ -3,6 +3,7 @@
     padding: 20px;
     text-align: center;
 }
+
 .sign-up-section {
     padding-top: 28px;
     padding-bottom: 60px;
@@ -44,6 +45,14 @@ input[type='text'], input[type='email'] {
     border-color: #ddd;
     box-shadow: none !important;
     border: 1px solid #ddd !important;
+}
+
+input[type='text']::placeholder {
+    color: #999;
+}
+
+input[type='email']::placeholder {
+    color: #999;
 }
 
 input[type='submit'] {
