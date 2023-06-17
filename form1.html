@@ -10,15 +10,26 @@
   <body>
 
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col">
                 <section class="sign-up-section">
-                    <form id="sign-up">
+                    <form class="sign-up">
+                        <h4>Sign Up</h4>
+                        <p>Let's start you're future off right.</p>
                         <input type="text" name="firstname" id="first-name" placeholder="First Name"><br>
                         <input type="text" name="lastname" id="last-name" placeholder="Last Name"><br>
                         <input type="email" name="email" id="email" placeholder="Email"><br>
                         <input type="submit" value="Submit">
+                        <p class="member-message">Already have an account? <a href="#">Log In</a></p>
+                        <div class="hr-div">
+                            <hr>
+                        </div>
+                        <div class="terms-div">
+                            <p class="terms-message">
+                                By signing up to create an account I accept Company's <a href="#">Terms of Use and Privacy Policy.</a>
+                            </p>
+                        </div>
                     </form>
                 </section>
             </div>

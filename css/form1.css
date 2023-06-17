@@ -1,0 +1,94 @@
+.sign-up-section {
+    margin-top: 23px;
+    padding: 20px;
+    text-align: center;
+}
+.sign-up-section {
+    padding-top: 28px;
+    padding-bottom: 60px;
+}
+
+.sign-up-section h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 31px;
+    font-weight: 800;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.sign-up-section p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #999;
+    margin-bottom: 20px;
+}
+
+.sign-up {
+    background-color: #fff;
+    width: 500px;
+    padding: 45px 20px;
+    border-radius: 6px;
+    
+    box-shadow: rgb(187,205,229) 0px 0px 0px 2px;
+    margin: 0 auto;
+}
+
+input[type='text'], input[type='email'] {
+
+    width: 350px;
+    height: 42px;
+    font-family: 'Titillium Web', sans-serif;
+    margin-bottom: 17px;
+    padding-left: 8px;
+    border-radius: 6px;
+    border-color: #ddd;
+    box-shadow: none !important;
+    border: 1px solid #ddd !important;
+}
+
+input[type='submit'] {
+    width: 350px;
+    height: 42px;
+    font-family: 'Titillium Web', sans-serif;    margin-top: 11px;
+    color: #fff;
+    background-color: #1C5D99;
+    border-radius: 6px;
+    border-color: #1C5D99;
+    box-shadow: none !important;
+    border: 1px solid #ddd !important;
+}
+
+.member-message {
+    font-family: 'Titillium Web', sans-serif;
+    color: #999 !important;
+    margin-top: 10px;
+}
+
+.member-message a {
+    text-decoration: none;
+}
+
+.hr-div {
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.hr-div hr {
+    border: 1px solid #bbb !important;
+}
+
+.terms-div {
+    width: 350px;
+    margin: 0 auto;
+}
+
+.terms-message {
+    font-size: 13px !important;
+    font-family: 'Titillium Web', sans-serif;
+    color: #999;
+}
+
+.terms-div a {
+    text-decoration: none;
+}
