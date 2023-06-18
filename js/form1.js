@@ -3,7 +3,6 @@ const emailFields = document.querySelectorAll('input[type="email"]')
 const emailMessages = document.querySelectorAll('.email-message')
 const submitButtons = document.querySelectorAll('input[type="submit"]')
 const emptyFieldSectionP = document.querySelectorAll('.empty-field-section .paragraph')
-const emailField1 = emailFields[0]
 
 const showEmptyMessage = () => {
     emptyFieldSectionP.forEach((p) => {
