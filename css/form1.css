@@ -17,10 +17,10 @@
     margin-bottom: 10px;
 }
 
-.sign-up-section p {
+.explore-p {
     font-size: 14px;
     font-weight: 500;
-    color: #999;
+    color: #707070;
     margin-bottom: 20px;
 }
 
@@ -29,30 +29,44 @@
     width: 500px;
     padding: 45px 20px;
     border-radius: 6px;
-    
     box-shadow: rgb(187,205,229) 0px 0px 0px 2px;
     margin: 0 auto;
 }
 
 input[type='text'], input[type='email'] {
-
     width: 350px;
     height: 42px;
     font-family: 'Titillium Web', sans-serif;
     margin-bottom: 17px;
     padding-left: 8px;
     border-radius: 6px;
-    border-color: #ddd;
     box-shadow: none !important;
-    border: 1px solid #ddd !important;
+    border: 1px solid #adadad !important;
+}
+
+.empty-field-section .paragraph {
+    font-weight: 500;
+    font-size: 14px;
+    color: #DB271A;
 }
 
 input[type='text']::placeholder {
     color: #999;
 }
 
+input[type='text']:nth-of-type(3) {
+    margin-bottom: 10px;
+}
+
 input[type='email']::placeholder {
     color: #999;
+}
+
+.email-message {
+    font-weight: 500;
+    font-size: 14px;
+    color: #DB271A;
+    margin-top: -8px;
 }
 
 input[type='submit'] {
@@ -69,7 +83,7 @@ input[type='submit'] {
 
 .member-message {
     font-family: 'Titillium Web', sans-serif;
-    color: #999 !important;
+    color: #474747 !important;
     margin-top: 10px;
 }
 
@@ -95,7 +109,7 @@ input[type='submit'] {
 .terms-message {
     font-size: 13px !important;
     font-family: 'Titillium Web', sans-serif;
-    color: #999;
+    color: #474747;
 }
 
 .terms-div a {

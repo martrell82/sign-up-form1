@@ -16,10 +16,14 @@
                     <section class="sign-up-section">
                         <form class="sign-up">
                             <h4>Sign Up</h4>
-                            <p>Let's explore the never ending realms.</p>
+                            <p class="explore-p">Let's explore the never ending realms.</p>
+                            <input type="email" name="email" id="email" placeholder="Email"><br>
+                            <p class="email-message d-none">Please add an email address.</p>
                             <input type="text" name="firstname" id="first-name" placeholder="First Name"><br>
                             <input type="text" name="lastname" id="last-name" placeholder="Last Name"><br>
-                            <input type="email" name="email" id="email" placeholder="Email"><br>
+                            <div class="empty-field-section">
+                                <p class="paragraph d-none">Please add a first and last name.</p>
+                            </div>
                             <input type="submit" value="Submit">
                             <p class="member-message">Already have an account? <a href="#">Log In</a></p>
                             <div class="hr-div">
