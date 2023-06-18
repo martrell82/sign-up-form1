@@ -20,7 +20,7 @@
 .explore-p {
     font-size: 14px;
     font-weight: 500;
-    color: #707070;
+    color: #525252;
     margin-bottom: 20px;
 }
 
@@ -55,7 +55,7 @@ input[type='text']::placeholder {
 }
 
 input[type='text']:nth-of-type(3) {
-    margin-bottom: 10px;
+    margin-bottom: 6px;
 }
 
 input[type='email']::placeholder {
@@ -81,6 +81,10 @@ input[type='submit'] {
     border: 1px solid #ddd !important;
 }
 
+input[type='submit']:hover {
+    background-color: #133f67;
+}
+
 .member-message {
     font-family: 'Titillium Web', sans-serif;
     color: #474747 !important;
@@ -95,15 +99,13 @@ input[type='submit'] {
     width: 350px;
     margin: 0 auto;
     margin-top: 25px;
-}
-
-.hr-div hr {
-    border: 1px solid #bbb !important;
+    border-top: 1px solid #ccc !important;
 }
 
 .terms-div {
     width: 350px;
     margin: 0 auto;
+    padding-top: 15px;
 }
 
 .terms-message {
